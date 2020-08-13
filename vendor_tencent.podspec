@@ -22,7 +22,7 @@ Pod::Spec.new do |spec|
   spec.source           = { :git => 'https://github.com/yangpansky/vendor_tencent.git', :tag => spec.version }
 
   spec.vendored_frameworks = 'lib/*.framework'
-  spec.frameworks = ["Security", "SystemConfiguration","CoreGraphics","CoreTelephony"]
+  spec.frameworks = ["Security", "SystemConfiguration","CoreGraphics","CoreTelephony","WebKit"]
   spec.libraries = ["iconv", "sqlite3", "stdc++", "z"]
 
 end
