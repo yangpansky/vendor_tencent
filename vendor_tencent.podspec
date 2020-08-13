@@ -12,14 +12,12 @@ Pod::Spec.new do |spec|
   spec.version      = "3.3.9"
   spec.summary      = "A short description of vendor_tencent."
 
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = 'Tencent framework for CocoaPods'
 
-  spec.homepage     = "http://EXAMPLE/vendor_tencent"
+  spec.homepage     = "https://github.com/yangpansky/vendor_tencent"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   spec.author             = { "yangpan" => "yangpansky@sina.cn" }
-  spec.platform = :ios, '9.0'
   spec.ios.deployment_target = "9.0"
   spec.source           = { :git => 'https://github.com/yangpansky/vendor_tencent.git', :tag => spec.version }
 
