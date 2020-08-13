@@ -9,7 +9,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "vendor_tencent"
-  spec.version      = "0.0.1"
+  spec.version      = "3.3.9"
   spec.summary      = "A short description of vendor_tencent."
 
   spec.description  = <<-DESC
