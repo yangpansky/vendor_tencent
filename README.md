@@ -5,7 +5,7 @@
  ## Add dependency
 
 ```yaml
-  pod 'vendor_tencent'
-or
-  pod 'vendor_tencent', 'lastVersion'
+pod 'vendor_tencent'
+  or
+pod 'vendor_tencent', '{lastVersion}'
 ```
